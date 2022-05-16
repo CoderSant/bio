@@ -1,0 +1,120 @@
+/* GERAL */
+html, body, header, main, footer, article, div, span, p, a, figure, img, small, ul, li{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    outline: none;
+    list-style: none;
+}
+
+body{
+    background-image: url("dev-background.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 700px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: repeat-y; /* repete a imagem apenas no sentido vertical */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.container_titulo{       
+    display: flex;
+    max-width: 2160px;
+    justify-content: center;    
+    padding: 15px 0;
+    flex-wrap: wrap;    
+}
+
+.page_titulo{
+    width: 390px;    
+    border-radius: 25px;
+    margin: 10px;
+    background-color: rgba(0, 255, 255, 0.5);
+    /* border: solid 5px cyan; */
+    justify-content:center;
+    text-align: center;
+    padding: 5px;    
+}
+
+.titulo_descição{
+    margin-top: 0px; margin-bottom: 0px;
+}
+
+.flex-container_1{
+    display: flex;
+    max-width: 2160px;
+    justify-content: center;    
+    padding: 15px 0;
+    flex-wrap: wrap;
+}
+
+.inicial{
+    width: 350px;
+    height: 400px;
+    border-radius: 25px;    
+    margin: 10px;
+    background-color: rgba(0, 255, 255, 0.5);
+    /* border:solid 5px cyan; */
+    justify-content:center;
+}
+
+.Avatar {
+    width: 97%;
+    border-radius: 6%;
+    margin: 5px;
+  }
+
+h3{
+    text-align: center;
+}
+
+
+.descrição{
+    width: 350px;
+    height: 400px;
+    border-radius: 25px;
+    margin: 10px;
+    background-color:rgba(0, 255, 255, 0.5);    
+    /* border:solid 5px cyan; */
+    justify-content:center;
+}
+
+.descrição h3{
+    
+}
+.descrição ul{
+    -webkit-text-stroke: thin;
+    padding: revert;
+}
+
+
+.flex-container_2{
+    display: flex;
+    max-width: 2160px;
+    justify-content: center;    
+    padding: 15px 0;
+    flex-wrap: wrap;
+}
+
+
+
+.item{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 10px;    
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .flex-container_1{
+        flex-wrap: nowrap;
+    }
+    .flex-container_2{
+        flex-wrap: nowrap;
+    }
+    
+}
+
